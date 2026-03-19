@@ -135,7 +135,7 @@ All practical assignments are denoted as:
 - **Wazuh** – SIEM for monitoring and alert generation  
 - **Velociraptor** – Endpoint monitoring and memory acquisition  
 - **PowerShell** – SHA256 hash generation  
-- **VirusTotal / AlienVault OTX** – Threat intelligence validation  
+- **VirusTotal** – Threat intelligence validation  
 - **Metasploit** – Attack simulation  
 - **IPtables** – Threat mitigation and IP blocking  
 - **Google Docs** – Documentation and reporting  
