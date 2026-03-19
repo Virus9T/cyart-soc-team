@@ -43,8 +43,6 @@ Week 2 focuses on building a strong foundation in **Security Operations Center (
   - Insider threats  
 - Frameworks:
   - MITRE ATT&CK (e.g., T1566 – Phishing)
-  - ENISA Taxonomy  
-  - VERIS  
 - Includes contextual metadata:
   - IP address  
   - Timestamps  
@@ -117,12 +115,11 @@ All practical assignments are denoted as:
 
 ### 6. Evidence Collection
 - Collect volatile data using **Velociraptor**
-  - Command: `netstat`  
 - Acquire process memory dump:
   - `explorer.exe`  
 
 ### 7. Integrity Verification
-- Generate SHA256 hash using **PowerShell**
+- Generate SHA256 hash using **PowerShell** of the evidence to preserve intigrity
 
 ### 8. Documentation
 - Create incident reports  
