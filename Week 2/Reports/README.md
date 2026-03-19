@@ -24,11 +24,11 @@ Example:
 
 | Assignment | File Name |
 |------------|----------|
-| PA1 – Alert Management Practice | SOCtask_PA1-Alert Management Practice_week2.pdf |
-| PA2 – Response Documentation | SOCtask_PA2-Response Document_week2.pdf |
-| PA3 – Alert Triage Practice | SOCtask_PA3-Alert Triage Practice Report-week2.pdf |
-| PA4 – Evidence Preservation | SOCtask_PA4-Evidence_Preservation-week2.pdf |
-| PA5 – Capstone Project | SOCtask_PA5-Capstone_Project.pdf |
+| PA1 – Alert Management Practice | SOCTask_PA1-Alert Management Practice Report-week2.pdf |
+| PA2 – Response Documentation | SOCTask_PA2-Response Documentation-week2.pdf |
+| PA3 – Alert Triage Practice | SOCTask_PA3-Alert Triage Practice Report-week2.pdf |
+| PA4 – Evidence Preservation | SOCTask_PA4-Evidence_Preservation-week2.pdf |
+| PA5 – Capstone Project | SOCTask_PA5-Capstone_Project(Full-Alert-to-Response-Cycle)-week2.pdf |
 
 ---
 
@@ -55,17 +55,4 @@ Each report includes:
 ## 🧾 Notes
 
 - All reports are part of hands-on SOC lab exercises.  
-- Screenshots are embedded in reports to validate execution.  
-- Evidence integrity is maintained where applicable (e.g., hashing in PA4).  
-
----
-
-## 🎯 Purpose
-
-The purpose of this folder is to demonstrate:
-- Practical SOC operations  
-- Alert monitoring and incident response  
-- Digital forensics and evidence handling  
-- End-to-end security workflow understanding  
-
----
+- Screenshots are embedded in reports to validate execution.
