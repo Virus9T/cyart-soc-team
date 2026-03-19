@@ -1,7 +1,13 @@
 # 🛡️ Week 2 – SOC Operations, Incident Response & Digital Forensics
 
 This directory contains all **theoretical knowledge, practical assignments, workflow documentation** completed during Week 2 of SOC Lab training.
-[📂 Reports](./Reports)
+
+---
+
+## 📂 Direct Access
+
+- 📄 **Directly Access Reports (Screenshot attached):** [Open Reports Folder](./Reports)
+
 ---
 
 ## 📌 Overview
