@@ -6,7 +6,7 @@ This directory contains all **theoretical knowledge, practical assignments, work
 
 ## 📂 Direct Access
 
-- 📄 **Directly Access Reports (Screenshot attached):** [Open Reports Folder](./Reports)
+- 📄 **Directly Access Reports (Screenshot attached):** [Open Reports Directory](./Reports)
 
 ---
 
@@ -64,18 +64,18 @@ Based on **NIST SP 800-61**:
 
 ---
 
-## ⚙️ Practical Assignments
+## ⚙️ Practical Applications
 
 All practical assignments are denoted as:
 
-**PA = Practical Assignment**
+**PA = Practical Application**
 **The reports covering all the practical tasks are provided in the /Reports directory along with their respective screenshots**
 
 ---
 
 ### 📄 Completed Tasks
 
-| PA | Task | Description |
+| Practical Application | Task | Description |
 |----|------|------------|
 | PA1 | Alert Management | Classification, prioritization, MITRE mapping |
 | PA2 | Response Documentation | Incident reports, templates, checklists |
