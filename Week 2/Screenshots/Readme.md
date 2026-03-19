@@ -1,1 +1,1 @@
-##This Directory Contains All Collected Screenshots
+## This Directory Contains All Collected Screenshots
