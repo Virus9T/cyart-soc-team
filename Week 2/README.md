@@ -1,7 +1,7 @@
 # 🛡️ Week 2 – SOC Operations, Incident Response & Digital Forensics
 
-This directory contains all **theoretical knowledge, practical assignments, workflow documentation, and evidence artifacts** completed during Week 2 of SOC Lab training.
-
+This directory contains all **theoretical knowledge, practical assignments, workflow documentation** completed during Week 2 of SOC Lab training.
+[📂 Reports](./Reports)
 ---
 
 ## 📌 Overview
@@ -79,7 +79,57 @@ All practical assignments are denoted as:
 
 ---
 
-## 🔄 SOC Workflow (Implemented)
+## 🔄Workflow
 
-```text
-Alert Detection → Classification → Triage → Investigation → Response → Evidence Collection → Documentation
+### 1. Detection
+- Alerts generated using **Wazuh**
+
+### 2. Classification
+- Assign severity:
+  - Critical  
+  - High  
+  - Medium  
+  - Low  
+- Map alerts to **MITRE ATT&CK**
+
+### 3. Triage
+- Validate alerts using:
+  - VirusTotal  
+  - AlienVault OTX  
+
+### 4. Investigation
+- Analyze:
+  - Logs  
+  - Source IPs  
+  - System activity  
+
+### 5. Response
+- Isolate affected system  
+- Block malicious IP using:
+  - CrowdSec  
+  - Firewall  
+
+### 6. Evidence Collection
+- Collect volatile data using **Velociraptor**
+  - Command: `netstat`  
+- Acquire process memory dump:
+  - `explorer.exe`  
+
+### 7. Integrity Verification
+- Generate SHA256 hash using **PowerShell**
+
+### 8. Documentation
+- Create incident reports  
+- Maintain chain-of-custody  
+
+---
+
+## 🛠️ Tools Used
+
+- **Wazuh** – SIEM for monitoring and alert generation  
+- **Velociraptor** – Endpoint monitoring and memory acquisition  
+- **PowerShell** – SHA256 hash generation  
+- **VirusTotal / AlienVault OTX** – Threat intelligence validation  
+- **Metasploit** – Attack simulation  
+- **IPtables** – Threat mitigation and IP blocking  
+- **Google Docs** – Documentation and reporting  
