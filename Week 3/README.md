@@ -14,6 +14,12 @@ The objective of this phase was to strengthen detection logic, intelligence-driv
 
 ---
 
+## 📂 Direct Access
+
+- 📄 **Directly Access Reports (Screenshot attached):** [Open Reports Directory](./Reports)
+
+---
+
 # Learning Objectives
 
 ## 1. Advanced Log Analysis
