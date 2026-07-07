@@ -57,7 +57,7 @@ def calculate_risk_score(
     exploitability_score
 ):
 
-    # Dummy values for now
+    # Dummy values for now #
 
     epss_score = 0.75
     kev_listed = False
@@ -220,7 +220,7 @@ skipped = 0
 
 
 # =====================================
-# FALLBACK TO DATABASE
+# FALLBACK TO DATABASE IF 500 ERROR
 # =====================================
 
 if not nvd_available:
@@ -373,6 +373,43 @@ conn.commit()
 print()
 print(f"[+] Inserted : {inserted}")
 print(f"[+] Skipped  : {skipped}")
+
+# =====================================
+# DISPLAY SAMPLE CVEs FROM DATABASE
+# =====================================
+
+print("\n==============================================")
+print(" CVEs Stored in PostgreSQL Database")
+print("==============================================")
+
+cur.execute(
+    """
+    SELECT
+        cve_id,
+        description,
+        published_date,
+        severity,
+        exploitability_score,
+        risk_score
+    FROM cves
+    ORDER BY id
+    LIMIT 10;
+    """
+)
+
+rows = cur.fetchall()
+
+for row in rows:
+
+    print("----------------------------------------------")
+    print(f"CVE ID               : {row[0]}")
+    print(f"Description          : {row[1]}")
+    print(f"Published Date       : {row[2]}")
+    print(f"Severity             : {row[3]}")
+    print(f"Exploitability Score : {row[4]}")
+    print(f"Risk Score           : {row[5]}")
+
+print("----------------------------------------------")
 
 cur.close()
 conn.close()
