@@ -195,7 +195,7 @@ Start PostgreSQL.
 Then execute
 
 ```bash
-python cve_ingestion.py
+python risk_scoring_intigration.py
 ```
 
 Example Output
